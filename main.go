@@ -46,7 +46,7 @@ func main() {
 		api.PUT("/books/:id", controllers.UpdateBook)
 		api.DELETE("/books/:id", controllers.DeleteBook)
 
-		//crud pinjam
+		//crud untuk pinjam
 		api.GET("/pinjam", controllers.Pinjam)
 		api.GET("/pinjam/:id", controllers.GetPinjamid)
 		api.POST("/pinjam", controllers.AddPinjam)
